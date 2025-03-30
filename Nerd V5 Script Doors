@@ -52,6 +52,3 @@ end)
 local Tab = Window:NewTab("Cheat Doors")
 local Section = Tab:NewSection("Delete In Development")
 Section:NewLabel("Delete")
--- Load Kavo UI
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Movable Kavo UI", "DarkTheme")
